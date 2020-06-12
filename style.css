@@ -1,0 +1,122 @@
+
+  body {
+    background-image: url('/images/background.jpeg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: 
+    url('/Fonts/roboto/Roboto-Light.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-LightItalic.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-Medium.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-MediumItalic.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-Regular.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-Thin.ttf')  format('truetype'),
+    url('/Fonts/roboto/Roboto-ThinItalic.ttf')  format('truetype'),
+    url('/Fonts/roboto/RobotoCondensed-Bold.ttf')  format('truetype'),
+    url('/Fonts/roboto/RobotoCondensed-BoldItalic.ttf')  format('truetype'),
+    url('/Fonts/roboto/RobotoCondensed-Light.ttf')  format('truetype'),
+    url('/Fonts/roboto/RobotoCondensed-Italic.ttf')  format('truetype'),
+    url('/Fonts/roboto/RobotoCondensed-Regular.ttf')  format('truetype')
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/Fonts/helvetica-255-cufonfonts/Helvetica-Bold.ttf') format('truetype'),
+    url('/Fonts/helvetica-255-cufonfonts/Helvetica-BoldOblique.ttf') format('truetype'),
+    url('/Fonts/helvetica-255-cufonfonts/helvetica-light-587ebe5a59211.ttf') format('truetype'),
+    url('/Fonts/helvetica-255-cufonfonts/Helvetica-Oblique.ttf') format('truetype'),
+    url('/Fonts/helvetica-255-cufonfonts/Helvetica.ttf') format('truetype')
+  }
+  
+  .card-content {
+    margin-top: 100px;
+    height: auto;
+    margin: 4rem 1rem 0 1rem;
+    position: relative;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .content{
+      padding: 3rem;
+  }
+  .color-card-2{
+    background:#FDFEFF;
+  }
+  .card-img{
+      padding-right: 0 !important;
+  }
+  .card-img img{
+      width: 100%;
+  }
+  .card{
+      border: none !important;
+  }
+  .card-desc .btn , .btn:hover{
+      width: 100%;
+      background: #20459D;
+      color: #fff;
+      border-radius: 10px;
+      padding: 13px;
+      font-family: 'Roboto';
+      font-family: 600;
+  }
+
+  .card-desc .card-body{
+      padding: 0.80rem 0 0 0 !important;
+  }
+  .card-desc .card-text{
+    font-size: 1.9vw;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+  }
+  .card-desc .card-title{
+      color:  #113F79 ;
+      font-family: 'Helvetica',  sans-serif;
+      font-weight:normal;
+      font-style:normal;
+      font-size: 2.5vw;
+
+}
+.card-desc .symbole{
+    vertical-align: middle;
+}
+.card-img .equalButton, .equalButton:hover{
+    border: none;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    background: none;
+}
+.card-img .ytb-logo{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 150px;
+    height: 100px;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+.video-close{
+    position: absolute;
+    right: 7px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    font-size: 30px;
+}
+.modal-dialog, .modal-dialog:hover{
+    max-width: 1000px !important;
+    border: none !important;
+}
